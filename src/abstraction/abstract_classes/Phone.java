@@ -25,6 +25,7 @@ public abstract class Phone {
     public abstract void ring();
     public abstract void text();
     public abstract boolean isConvertible();
+    //public abstract boolean takesPhoto(); // optional not every phone can take a picture
 
     @Override
     public String toString() {
